@@ -1,0 +1,71 @@
+from time import sleep
+
+class Bois:
+
+    #atributes
+
+    health = 100
+
+    
+    def getSlappedjake(self):
+        self.health = self.health - 20
+        print("JAKE JUST GOT SHLLLLAPED")
+
+    def getSlappedlogan(self):
+        self.health = self.health - 20
+        print("LOGAN JUST GOT SHLLLLAPED")
+
+    def sayHealthjake(self):
+        print("OI! JAKES HELTH IS " + str(self.health))
+
+    def sayHealthlogan(self):
+        print("OI! LOGANS HELTH IS " + str(self.health))
+
+
+jakepaul = Bois()
+loganpaul = Bois()
+
+jakepaul.sayHealthjake()
+
+sleep(1)
+
+jakepaul.getSlappedjake()
+
+loganpaul.sayHealthlogan()
+
+sleep(1)
+
+loganpaul.getSlappedlogan()
+
+sleep(1)
+
+jakepaul.getSlappedjake()
+
+sleep(1)
+
+jakepaul.sayHealthjake()
+
+sleep(1)
+
+loganpaul.sayHealthlogan()
+
+sleep(1)
+
+jakepaul.getSlappedjake()
+
+sleep(1)
+
+jakepaul.getSlappedjake()
+
+sleep(1)
+
+jakepaul.sayHealthjake()
+
+sleep(1)
+
+jakepaul.getSlappedjake()
+
+sleep(1)
+
+print("Jake ded")
+
